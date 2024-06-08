@@ -14,12 +14,6 @@ titleText [_text, "PLAIN", 0.2, true, true];
 	"dynamicBlur" ppEffectCommit 5;
 };
 
-
-[player, {
-  _this call ZONT_fnc_giveZeus;
-}] remoteExec ["bis_fnc_call", 2];
-
-
 [] execVM "initPlayerAfterRespawn.sqf";
 
 /* { [_x select 0, player, _x select 1, true] spawn ZONT_fnc_addSkillAction } foreach MPC_skills_actions; */
