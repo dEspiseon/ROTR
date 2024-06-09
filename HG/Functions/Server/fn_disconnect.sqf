@@ -2,7 +2,7 @@
     Author - HoverGuy
     Website - https://northernimpulse.com
 */
-params["_unit","_id","_uid","_name"];
+params["_unit","_id","_uid"];
 
 if((getNumber(getMissionConfig "CfgClient" >> "enableWhitelist")) isEqualTo 1) then
 {
