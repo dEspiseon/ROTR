@@ -5,6 +5,8 @@ author = "Virus";
 __EXEC(HG_Profile = allVariables profileNamespace)
 
 cba_settings_hasSettingsFile = 1;
+// no respawn on start
+respawnOnStart = -1;
 
 /*
     Classes
